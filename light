@@ -1,0 +1,10 @@
+#!/bin/sh
+
+sudo apt install help2man -y
+
+cd ~/git
+git clone https://github.com/haikarainen/light.git 
+cd light
+make
+sudo make install
+
